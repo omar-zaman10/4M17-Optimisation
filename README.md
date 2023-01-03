@@ -1,4 +1,4 @@
-# 4M17-Optimisation
+# 4M17-Optimisation Assignment 2
 
 Performs Simulated Annealing and Evolutionary Strategies algorithms to minimise Schwefels function.
 
