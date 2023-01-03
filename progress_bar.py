@@ -1,5 +1,7 @@
 import colorama
 
+'''Used only as a visual indication for how long the algorithms need to run for'''
+
 def progress_bar(progress,total,color=colorama.Fore.RED):
 
     percent = 100.0*progress/total
