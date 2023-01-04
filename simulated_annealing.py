@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 from pylab import meshgrid
 import seaborn as sns
 
+'''Run file to execute SA algorithm with all the different implentations and printed on console will be the results'''
+
 class SA_Solver:
     '''
     SA_Solver object which runs the Simulated Annealing Algorithm
