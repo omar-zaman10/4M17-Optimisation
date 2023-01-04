@@ -217,7 +217,7 @@ class SA_Solver:
         plt.xlabel('Iterations')
         plt.ylabel('Objective function value')
         plt.title('Minimisation of 2D Schwefel function')
-        #plt.savefig('testplot1')
+        plt.savefig('Simulated Annealing convergence')
         plt.show()
 
     def plot_2d(self):
@@ -242,7 +242,7 @@ class SA_Solver:
       
         sc = plt.scatter(data1,data2,marker='v',c=it, cmap='brg',s=10)
         plt.colorbar(sc,label='Iterations')
-        #plt.savefig('testplot2')
+        plt.savefig('Simulated Annealing 2D search pattern')
         plt.show()
 
 
