@@ -1,6 +1,8 @@
 import numpy as np
 from scipy.optimize import basinhopping
 
+'''Run file to get basinhopping performance, Note 50 repeats takes a very long time!'''
+
 def objective_function(x):
     for x_i in x: 
         if abs(x_i) > 500.0 : return np.inf
@@ -8,19 +10,6 @@ def objective_function(x):
     return np.sum(-x*np.sin(np.sqrt(abs(x))))
 
 
-'''
-optimal = basinhopping(objective_function,x,100_000)
-x = optimal.x
-print(optimal.x,optimal.fun)
-
-x = np.ones(1)
-optimal = basinhopping(objective_function,x,10_000)
-print(optimal.x,optimal.fun,optimal.fun*6)
-
-x = np.ones(2)
-optimal = basinhopping(objective_function,x,20_000)
-print(optimal.x,optimal.fun)
-'''
 repeats = 50
 
 
