@@ -5,7 +5,7 @@ import seaborn as sns
 from pylab import meshgrid
 from progress_bar import progress_bar
 
-
+'''Run file to execute Evolutionary Strategies with various different implementations, results will be printed to console'''
 
 class ES_Solver:
     '''Evolutionary Strategies Solver object
