@@ -23,6 +23,6 @@ solver = ES_Solver(2)
 
 res = solver.solve()
 x,value = res['x'],res['fun']
-
+print(f'x {x} objective {value}')
 
 solver.plot2d()
